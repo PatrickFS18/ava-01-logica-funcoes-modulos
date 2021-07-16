@@ -131,7 +131,7 @@ const letraA = 'a'; // a letra `a` está nos índices marcados abaixo
 //                    _ _ _        _ _ _
 const umTexto = `programacao orientada a objetos`;
 //               0123456789012345678901234567890
-const indices = localizar(umTexto, letraA);
+let indices = localizar(umTexto, letraA);
 
 // a letra `a` aparece nos índices 5, 7, 9, 18, 20 e 22
 console.log(indices); // [5, 7, 9, 18, 20, 22]
